@@ -47,7 +47,7 @@ nav ul li a:hover {
 
 
    .precourse {
-   padding: 40px;
+   padding: 60px;
    background-color: #f8fbf9;
    text-align: justify;
   }
@@ -84,7 +84,7 @@ nav ul li a:hover {
 
 
   .cv {
-  padding: 40px;
+  padding: 60px;
   background-color: #e8f2ec;
   text-align: justify;
 }
@@ -101,7 +101,7 @@ nav ul li a:hover {
   margin: 10px 100px;
 }
   .education {
-  padding: 40px;
+  padding: 60px;
   background-color: #f8fbf9;
   text-align: justify;
 }
@@ -130,7 +130,6 @@ nav ul li a:hover {
 
 .contact-details {
   display: inline-block;
-  font-weight: bold;
   margin: 0 35px 45px 35px;
   border: 1px solid #90C695;
   border-radius: 100%;
@@ -139,7 +138,8 @@ nav ul li a:hover {
   line-height: 100px;
   background: #e8f2ec;
   color: #00a9a9;
-  text-decoration: none;
+  font-weight: bold;
+  text-decoration: underline overline wavy;
 }
 
 .contact-details:hover {
