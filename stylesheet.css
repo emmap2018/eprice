@@ -15,10 +15,7 @@ body {
   min-height: 55vh;
   padding-top: 45vh;
   letter-spacing: 10px;
-  /*   line-height: 100vh; */
-  /*   width:100%;
-  height:96vh;
-border:solid; */
+
 }
 
 .intro p {
@@ -49,27 +46,24 @@ nav ul li a:hover {
 }
 
 
-    .precourse {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: -20px;
-      background-color: #f8fbf9;
+   .precourse {
+   padding: 40px;
+   background-color: #f8fbf9;
+   text-align: justify;
   }
 
   .precourse .precourse-header {
     color: #00a9a9;
     font-weight: normal;
-    margin-top: 30px;
-    margin-bottom: 10px;
   }
 
   .req {
     text-decoration: none;
     color: #00a9a9;
     display: inline-block;
-    margin: 10px 100px;
+    margin: 10px 0px;
     border: 1px solid #90C695;
-      padding: 1%;
+    padding: 1%;
   }
 
 .req-title {
@@ -90,15 +84,12 @@ nav ul li a:hover {
 
 
   .cv {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-top: -20px;
+  padding: 40px;
   background-color: #e8f2ec;
+  text-align: justify;
 }
 
 .cv .cv-header {
-  margin-top: 30px;
-  margin-bottom: 10px;
   color: #00a9a9;
   font-weight: normal;
 }
@@ -110,15 +101,12 @@ nav ul li a:hover {
   margin: 10px 100px;
 }
   .education {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-top: -20px;
+  padding: 40px;
   background-color: #f8fbf9;
+  text-align: justify;
 }
 
 .education .education-header {
-  margin-top: 30px;
-  margin-bottom: 10px;
   color: #00a9a9;
   font-weight: normal;
 }
@@ -131,7 +119,6 @@ nav ul li a:hover {
 }
 
 .contact {
-
   background: #8CCFAA;
   padding-bottom: 160px;
 }
@@ -145,8 +132,7 @@ nav ul li a:hover {
   display: inline-block;
   font-weight: bold;
   margin: 0 35px 45px 35px;
-  list-style-type: none;
-  border: 1px solid #22313F;
+  border: 1px solid #90C695;
   border-radius: 100%;
   width: 100px;
   height: 100px;
