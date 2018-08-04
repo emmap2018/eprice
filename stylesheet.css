@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Condensed', Arial, sans-serif;
   text-align: center;
 }
 
@@ -11,22 +11,21 @@ body {
 
 .intro {
   top: 0;
-  background: #e8f2ec;
+  background: #eefaf0;
   min-height: 55vh;
   padding-top: 45vh;
   letter-spacing: 10px;
-
+  font-size: 25px;
 }
-
-.intro p {
-  color: #00a9a9;
+.intro p{
+  font-size: 18px;
 }
 
 nav ul {
   text-align: right;
   position: fixed;
   width: 100%;
-  background-color: #e8f2ec;
+  background-color: white;
 }
 
 nav ul li {
@@ -37,35 +36,45 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #00a9a9;
+  color: #F2CBE4;
   text-decoration: none;
+  font-size: 14px;
 }
 
 nav ul li a:hover {
-  color: #008080;
+  color: #F2E8EE;
 }
 
 
-   .precourse {
+.precourse {
    padding: 60px;
    background-color: #f8fbf9;
-   text-align: justify;
+   text-align: left;
   }
 
-  .precourse .precourse-header {
-    color: #00a9a9;
-    font-weight: normal;
+.precourse p {
+  font-size: 15px;
+  width: 60%;
+}
+.precourse .precourse-header {
+    color: #F2CBE4;
+    font-weight: 200;
   }
 
-  .req {
+.req {
     text-decoration: none;
-    color: #00a9a9;
+    background-color: #B7D6C4;
+    color: white;
     display: inline-block;
     margin: 10px 0px;
-    border: 1px solid #90C695;
+    border: 1px solid white;
     padding: 1%;
   }
 
+.req:hover {
+  background: #F2E8EE;
+  color: white;
+}
 .req-title {
   font-weight: bold;
 }
@@ -83,43 +92,45 @@ nav ul li a:hover {
 }
 
 
-  .cv {
+.cv {
   padding: 60px;
-  background-color: #e8f2ec;
+  background-color: #eefaf0;
   text-align: justify;
 }
 
 .cv .cv-header {
-  color: #00a9a9;
-  font-weight: normal;
+  color: #F2CBE4;
+  font-weight: 200;
 }
 
 .job {
   text-decoration: none;
-  color: #00a9a9;
+  color: black;
   display: inline-block;
   margin: 10px 100px;
+  font-size: 15px;
 }
-  .education {
+.education {
   padding: 60px;
   background-color: #f8fbf9;
   text-align: justify;
 }
 
 .education .education-header {
-  color: #00a9a9;
-  font-weight: normal;
+  color: #F2CBE4;
+  font-weight: 200;
 }
 
 .sch {
   text-decoration: none;
-  color: #00a9a9;
+  color: black;
   display: inline-block;
   margin: 10px 100px;
+  font-size: 15px;
 }
 
 .contact {
-  background: #8CCFAA;
+  background: #eefaf0;
   padding-bottom: 160px;
 }
 
@@ -131,26 +142,26 @@ nav ul li a:hover {
 .contact-details {
   display: inline-block;
   margin: 0 35px 45px 35px;
-  border: 1px solid #90C695;
+  border: 1px solid white;
   border-radius: 100%;
   width: 100px;
   height: 100px;
   line-height: 100px;
-  background: #e8f2ec;
-  color: #00a9a9;
+  background: #B7D6C4;
+  color: white;
   font-weight: bold;
-  text-decoration: underline overline wavy;
+  text-decoration: none;
 }
 
 .contact-details:hover {
-  background: #E8F2F3;
-  color: #008080;
+  background: #F2E8EE;
+  color: white;
 }
 
 
 footer {
   padding: 20px;
-  background: #22313F;
+  background: #B7D6C4;
   color: white;
   line-height: 40px;
 }
@@ -162,11 +173,16 @@ footer a {
 @media only screen and (max-width: 367px) {
 
   .contact-details {
-    border: 2px solid #90C695;
-    border-radius: 0;
-    width: 90px;
-    height: 20px;
-    padding: 10px;
-    line-height: normal;
+  display: inline-block;
+  margin: 0 35px 45px 35px;
+  border: 1px solid white;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: #8ddb9d;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
   }
 }
