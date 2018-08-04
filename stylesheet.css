@@ -9,27 +9,9 @@ body {
   padding: 0;
 }
 
-.intro {
-  top: 0;
-  background: url(https://github.com/emmap2018/eprice/blob/master/IMG_7112.JPG);
-  background-repeat: no-repeat;
-  background-attachment: relative;
-  background-position: center top;
-  opacity: 0.5;
-  min-height: 65vh;
-  padding-top: 45vh;
-  letter-spacing: 10px;
-  font-size: 25px;
-  position: relative;
-}
-.intro p{
-  font-size: 18px;
-  position: relative;
-}
-
 nav ul {
   text-align: right;
-  position: fixed;
+  position: relative;
   width: 100%;
   background-color: white;
 }
@@ -42,7 +24,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #b8a5af;
+  color: #F2CBE4;
   text-decoration: none;
   font-size: 14px;
 }
@@ -51,8 +33,21 @@ nav ul li a:hover {
   color: #F2E8EE;
 }
 
-
-  .precourse {
+.intro {
+  top: 0;
+  background: url(https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/11885236_10153573965586514_1836024995737153831_n.jpg?_nc_cat=0&oh=46776f887e5bab3b541d61298f157df0&oe=5BCC1323) no-repeat center center;
+  background-size: 100%;
+  opacity: 0.8;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  min-height: 55vh;
+  padding-top: 45vh;
+  letter-spacing: 10px;
+  font-size: 25px;
+}
+.intro p{
+  font-size: 18px;
+}
+.precourse {
    padding: 60px;
    background-color: #f8fbf9;
    text-align: left;
@@ -60,14 +55,14 @@ nav ul li a:hover {
 
 .precourse p {
   font-size: 15px;
-  width: 60%;
+  width: 50%;
 }
-  .precourse .precourse-header {
-    color: #b8a5af;
+.precourse .precourse-header {
+    color: #F2CBE4;
     font-weight: 200;
   }
 
-  .req {
+.req {
     text-decoration: none;
     background-color: #B7D6C4;
     color: white;
@@ -98,14 +93,14 @@ nav ul li a:hover {
 }
 
 
-  .cv {
+.cv {
   padding: 60px;
   background-color: #eefaf0;
   text-align: justify;
 }
 
 .cv .cv-header {
-  color: #b8a5af;
+  color: #F2CBE4;
   font-weight: 200;
 }
 
@@ -116,14 +111,14 @@ nav ul li a:hover {
   margin: 10px 100px;
   font-size: 15px;
 }
-  .education {
+.education {
   padding: 60px;
   background-color: #f8fbf9;
   text-align: justify;
 }
 
 .education .education-header {
-  color: #b8a5af;
+  color: #F2CBE4;
   font-weight: 200;
 }
 
