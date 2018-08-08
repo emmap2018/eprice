@@ -24,7 +24,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #F2CBE4;
+  color: #00477a;
   text-decoration: none;
   font-size: 14px;
 }
@@ -36,8 +36,8 @@ nav ul li a:hover {
 .intro {
   top: 0;
   background: url(https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/11885236_10153573965586514_1836024995737153831_n.jpg?_nc_cat=0&oh=46776f887e5bab3b541d61298f157df0&oe=5BCC1323) no-repeat center center;
-  background-size: 100%;
   opacity: 0.8;
+  background-size: 90%;
   filter: alpha(opacity=50); /* For IE8 and earlier */
   min-height: 55vh;
   padding-top: 45vh;
@@ -55,7 +55,7 @@ nav ul li a:hover {
 
 .precourse p {
   font-size: 15px;
-  width: 50%;
+  width: 40%;
 }
 .precourse .precourse-header {
     color: #F2CBE4;
