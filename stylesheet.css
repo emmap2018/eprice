@@ -115,6 +115,7 @@ nav ul li a:hover {
   padding: 60px;
   background-color: #f8fbf9;
   text-align: justify;
+  font-size: 15px;
 }
 
 .education .education-header {
@@ -169,21 +170,4 @@ footer {
 
 footer a {
   color: white;
-}
-
-@media only screen and (max-width: 367px) {
-
-  .contact-details {
-  display: inline-block;
-  margin: 0 35px 45px 35px;
-  border: 1px solid white;
-  border-radius: 100%;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
-  background: #8ddb9d;
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  }
 }
